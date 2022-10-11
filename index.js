@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const puppeteer = require("puppeteer");
+const crawl = require("./bin-crawl");
 
 app.get("/", function (req, res) {
   res.send("test");
